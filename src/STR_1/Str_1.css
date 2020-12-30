@@ -1,0 +1,11 @@
+.STR_1 {
+    width: 1200px;
+  display: grid;
+  grid-template-rows: 1fr 30fr ;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-areas:
+  "a a a"
+  "l b r" 
+  
+  ;
+  }

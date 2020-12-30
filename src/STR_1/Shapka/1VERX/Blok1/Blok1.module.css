@@ -1,0 +1,9 @@
+.Blok1 {
+    color: blue;
+    background-color: rgb(230, 215, 14);
+    text-align: left;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+
+}

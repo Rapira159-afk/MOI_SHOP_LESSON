@@ -1,0 +1,9 @@
+/*Свойсва повешенные только на константу, на столбец нужно распологать в Str_1*/
+.stile {
+    grid-area: l;
+  background-color: rgb(0, 255, 13);
+  text-align: center;
+  }
+.nav {
+  background-color: deepskyblue;
+}

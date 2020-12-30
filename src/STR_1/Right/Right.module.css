@@ -1,0 +1,15 @@
+.Right {
+    grid-area: r;
+    background-color: #9dff00;
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 100fr;
+    grid-template-areas:
+  "r10"
+  "r20"
+;
+color: blue;
+}
+
+
+
