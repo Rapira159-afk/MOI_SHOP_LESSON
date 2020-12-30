@@ -3,7 +3,7 @@
     color: blue;
     background-color: rgb(230, 14, 226);
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-template-columns: 1fr;
 
 }
