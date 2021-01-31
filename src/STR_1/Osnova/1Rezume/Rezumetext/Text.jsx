@@ -1,17 +1,16 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 
 
-function TextR() {
+const TextR = ()=> {
     return (
-        <div>
-            <div><div>Петько Анатолий Казимирович</div> </div>
-            <div><div>Год рождения</div> </div>
-            <div><div>1992</div> </div>
-            <div><div>Email: Apetko@list.ru</div> </div>     
-            <div><div>Опыт прграммирования</div> </div> 
-            <div><div>Должность Frontend разработчик</div> </div> 
-            <div><div>Образование в области программирования</div> </div> 
-        </div>
+<Qwe Name='Петько Анатолий Казимирович' Year='Год рождения 1992' Email='Email: Apetko@list.ru'
+Experience='Опыт прграммирования c 2020' Thepost='Должность Frontend разработчик' Education='Образование в области программирования'/>      
     )
 };
+const Qwe = (props) =>{
+return (
+    <div>{props.Name},{props.Thepost}gh</div>)};
+
+
 export {TextR};

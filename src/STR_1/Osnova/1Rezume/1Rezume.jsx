@@ -11,4 +11,6 @@ function Osnov1() {
         </div>
     )
 };
+
 export {Osnov1};
+
