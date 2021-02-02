@@ -11,12 +11,12 @@ import {Osnov6} from "./6Cherty/6Cherty";
 function Osnova() {
     return (
           <div>
-            <div><Route exact path='/1Rezume' component={Osnov1}/></div>
-            <div><Route exact path='/2Znanie' component={Osnov2}/></div>
-            <div><Route exact path='/3Raboni' component={Osnov3}/></div>
-            <div><Route exact path='/4Contact' component={Osnov4}/></div>
-            <div><Route exact path='/5Uvlech' component={Osnov5}/></div>
-            <div><Route exact path='/6Cherty' component={Osnov6}/></div>
+            <div><Route exact path='/1Rezume' render={()=><Osnov1/>}/></div>
+            <div><Route exact path='/2Znanie' render={()=><Osnov2/>}/></div>
+            <div><Route exact path='/3Raboni' render={()=><Osnov3/>}/></div>
+            <div><Route exact path='/4Contact' render={()=><Osnov4/>}/></div>
+            <div><Route exact path='/5Uvlech' render={()=><Osnov5/>}/></div>
+            <div><Route exact path='/6Cherty' render={()=><Osnov6/>}/></div>
         </div>
     )
 }

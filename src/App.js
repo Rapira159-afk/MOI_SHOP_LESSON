@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import { Str_1 } from './STR_1/Str_1';
@@ -10,4 +9,6 @@ function MY_SITE() {
   );
 }
 
+
 export default MY_SITE;
+

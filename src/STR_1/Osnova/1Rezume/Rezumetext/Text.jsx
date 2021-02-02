@@ -7,5 +7,4 @@ const Qwe = (props) =>{
 return (
     <div>{props.Name},{props.Thepost}gh</div>)};
 
-
 export {Qwe};

@@ -13,7 +13,6 @@ function Str_1() {
       <div className='Shapka'><Shapka /></div>
       <div><Spisok_L /></div>
       <div><Right /></div>
-
       <div className='Osnova'><Osnova /></div>
     </div>
   );
