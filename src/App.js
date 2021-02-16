@@ -3,12 +3,12 @@ import React from 'react';
 import { Str_1 } from './STR_1/Str_1';
 
 
-function MY_SITE() {
+function App(props) {
   return (
-      <div className='STR_1'><Str_1 /></div>
+      <div className='STR_1'><Str_1 TextR={props.TextR} /></div>
   );
 }
 
 
-export default MY_SITE;
+export default App;
 

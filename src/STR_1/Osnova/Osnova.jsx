@@ -11,7 +11,7 @@ import {Osnov6} from "./6Cherty/6Cherty";
 function Osnova() {
     return (
           <div>
-            <div><Route exact path='/1Rezume' render={()=><Osnov1/>}/></div>
+            <div><Route exact path='/1Rezume' render={()=><Osnov1 TextR={props.TextR}/>}/></div>
             <div><Route exact path='/2Znanie' render={()=><Osnov2/>}/></div>
             <div><Route exact path='/3Raboni' render={()=><Osnov3/>}/></div>
             <div><Route exact path='/4Contact' render={()=><Osnov4/>}/></div>
