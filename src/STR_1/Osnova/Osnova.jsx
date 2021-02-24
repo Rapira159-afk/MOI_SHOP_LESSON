@@ -8,7 +8,7 @@ import {Osnov4} from './4Contact/4Contact';
 import {Osnov5} from "./5Uvlech/5Uvlech";
 import {Osnov6} from "./6Cherty/6Cherty";
 
-function Osnova() {
+function Osnova(props) {
     return (
           <div>
             <div><Route exact path='/1Rezume' render={()=><Osnov1 TextR={props.TextR}/>}/></div>

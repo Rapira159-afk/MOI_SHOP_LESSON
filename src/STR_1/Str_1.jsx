@@ -7,7 +7,7 @@ import {Right} from "./Right/Right";
 import {BrowserRouter} from "react-router-dom";
 
 
-function Str_1() {
+function Str_1(props) {
   return (
     <div className='STR_1'>
       <div className='Shapka'><Shapka /></div>
