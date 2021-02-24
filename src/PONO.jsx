@@ -1,12 +1,21 @@
 import { Qwe } from "./STR_1/Osnova/1Rezume/Rezumetext/Text";
- const TextR = () => {
+import { Osnov4 } from "./STR_1/Osnova/4Contact/4Contact";
+
+const TextR = () => {
   return (
 <Qwe Name='Петько Анатолий Казимирович'
-Year='Год рождения 1992'
-Email='Email: Apetko@list.ru'
-Experience='Опыт прграммирования c ноября 2020г' 
-Thepost='Должность Frontend разработчик' 
-Education='Образование в области программирования'/>      
+     Year='Год рождения 1992'
+     Experience='Опыт прграммирования c ноября 2020г' 
+     Thepost='Должность Frontend разработчик' 
+     Education='Образование в области программирования'/>      
   )
 };
-export {TextR};
+
+const Con = () => {
+  return (
+<Osnov4 Namber= '+375292818...'
+        Email='Email: Apetko@list.ru'/>
+    )
+};
+
+export {TextR,Con};

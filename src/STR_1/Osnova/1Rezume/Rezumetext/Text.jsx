@@ -5,7 +5,6 @@ const Qwe = (props) =>{
 return (
     <div><div>{props.Name}</div>
     <div>{props.Thepost}</div>
-    <div>{props.Email}</div>
     <div>{props.Experience}</div>
     <div>{props.Thepost}</div>
     <div>{props.Education}</div>

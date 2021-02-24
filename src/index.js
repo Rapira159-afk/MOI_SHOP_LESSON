@@ -4,12 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from "react-router-dom";
-import {TextR} from './PONO';
+import {TextR, Con} from './PONO';
 
 ReactDOM.render(
     <BrowserRouter>
         <React.StrictMode>
-            <App TextR={TextR}/>
+            <App TextR={TextR} Con={Con}/>
         </React.StrictMode>
     </BrowserRouter>
     , document.getElementById('root')
