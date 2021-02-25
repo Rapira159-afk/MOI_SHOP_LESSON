@@ -9,7 +9,7 @@ import {TextR, Con} from './PONO';
 ReactDOM.render(
     <BrowserRouter>
         <React.StrictMode>
-            <App TextR={TextR} Con={Con}/>
+            <App TextR={TextR}/>
         </React.StrictMode>
     </BrowserRouter>
     , document.getElementById('root')

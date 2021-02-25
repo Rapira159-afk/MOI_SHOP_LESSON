@@ -11,10 +11,10 @@ import {Osnov6} from "./6Cherty/6Cherty";
 function Osnova(props) {
     return (
           <div>
-            <div><Route exact path='/1Rezume' render={()=><Osnov1 TextR={props.TextR}/>}/></div>
+            <div><Route exact path='/1Rezume' render={()=><Osnov1 Dannie={props.TextR.Dannie}/>}/></div>
             <div><Route exact path='/2Znanie' render={()=><Osnov2/>}/></div>
             <div><Route exact path='/3Raboni' render={()=><Osnov3/>}/></div>
-            <div><Route exact path='/4Contact' render={()=><Osnov4 Con={props.Con}/>}/></div>
+            <div><Route exact path='/4Contact' render={()=><Osnov4/>}/></div>
             <div><Route exact path='/5Uvlech' render={()=><Osnov5/>}/></div>
             <div><Route exact path='/6Cherty' render={()=><Osnov6/>}/></div>
         </div>

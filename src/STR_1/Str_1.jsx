@@ -13,7 +13,7 @@ function Str_1(props) {
       <div className='Shapka'><Shapka /></div>
       <div><Spisok_L /></div>
       <div><Right /></div>
-      <div className='Osnova'><Osnova TextR={props.TextR} Con={props.Con} /></div>
+      <div className='Osnova'><Osnova TextR={props.TextR} /></div>
     </div>
   );
 }

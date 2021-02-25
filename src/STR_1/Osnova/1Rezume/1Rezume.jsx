@@ -8,7 +8,7 @@ function Osnov1(props) {
     return (
         <div>
             <div className={q.Osnov1}><div><Imgr1/></div> </div>
-            <div className={q.Osnov1}><div><TextR TextR={props.TextR}/></div> </div>
+            <div className={q.Osnov1}><div><TextR Dannie2={props.TextR.Dannie}/></div> </div>
         </div>
     )
 };
