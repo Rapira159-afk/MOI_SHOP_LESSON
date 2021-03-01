@@ -17,7 +17,7 @@ import { Osnov4 } from "./STR_1/Osnova/4Contact/4Contact";
     )
 };
 };*/
-let TextR = { 
+let State = { 
 Dannie:{
          Name:'Петько Анатолий Казимирович',
          Year:'Год рождения 1992',
@@ -31,4 +31,4 @@ Cont:{
          Email: 'Email: Apetko@list.ru'
      }      }
 
-      export {TextR};
+      export {State};

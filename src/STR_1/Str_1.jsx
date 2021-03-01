@@ -12,8 +12,8 @@ function Str_1(props) {
     <div className='STR_1'>
       <div className='Shapka'><Shapka /></div>
       <div><Spisok_L /></div>
-      <div><Right /></div>
-      <div className='Osnova'><Osnova TextR={props.TextR} /></div>
+      <div><Right State={props.State} /></div>
+      <div className='Osnova'><Osnova State={props.State} /></div>
     </div>
   );
 }
