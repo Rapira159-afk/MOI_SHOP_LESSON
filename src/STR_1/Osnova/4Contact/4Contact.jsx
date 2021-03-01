@@ -5,7 +5,7 @@ const Osnov4=(props)=> {
         <div>
             <div className={q.Osnov4}>
                 <div>Контактная информация</div> 
-                <div>{props.Namber}{props.Email}34e</div>
+                <div>{props.Cont.Namber}{props.Cont.Email}34e</div>
                 </div>
 
         </div>

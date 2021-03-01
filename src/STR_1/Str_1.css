@@ -5,7 +5,6 @@
   grid-template-columns: 1fr 5fr 1fr;
   grid-template-areas:
   "a a a"
-  "l b r" 
-  
-  ;
-  }
+  "l b r"   ;
+text-align:center;  
+}
