@@ -29,6 +29,14 @@ Dannie:{
 Cont:{
          Namber: '+375292818...',
          Email: 'Email: Apetko@list.ru'
-     }      }
+     },
+Znanie:{
+         Q1:"Основы HTML",
+         Q2:"Основы CSS",
+         Q3:"Основы GIT",
+         Q4:"Алгоритмы",
+         Q5:"Javascript (Фраймворк REACT)"
+
+}      }
 
       export {State};
