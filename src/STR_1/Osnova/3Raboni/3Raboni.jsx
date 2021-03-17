@@ -1,6 +1,5 @@
 import React from 'react';
 import q from './3Raboni.module.css';
-import {Link, NavLink} from 'react-router-dom';
 function Osnov3(props) {
     return (
         <div>
