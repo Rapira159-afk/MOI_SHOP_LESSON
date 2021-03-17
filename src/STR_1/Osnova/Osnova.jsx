@@ -16,7 +16,7 @@ function Osnova(props) {
             <div><Route exact path='/3Raboni' render={()=><Osnov3 Raboti={props.State.Raboti}/>}/></div>
             <div><Route exact path='/4Contact' render={()=><Osnov4 Cont={props.State.Cont}/>}/></div>
             <div><Route exact path='/5Uvlech' render={()=><Osnov5 Uvlech={props.State.Uvlech}/>}/></div>
-            <div><Route exact path='/6Cherty' render={()=><Osnov6/>}/></div>
+            <div><Route exact path='/6Cherty' render={()=><Osnov6 Cherty={props.State.Cherty}/>}/></div>
         </div>
     )
 }
