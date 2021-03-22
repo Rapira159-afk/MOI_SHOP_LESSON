@@ -1,9 +1,0 @@
-.Blok6 {
-
-    color: blue;
-    background-color: rgb(153, 118, 153);
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr;
-
-}
