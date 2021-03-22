@@ -1,0 +1,16 @@
+.Shapka {
+    grid-area: a; 
+    color: blue;
+    background-color: rgb(14, 230, 205);
+    text-align: center;
+
+    padding-top: 0px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom:0px ;
+
+    display: grid;
+    grid-template-rows:1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
