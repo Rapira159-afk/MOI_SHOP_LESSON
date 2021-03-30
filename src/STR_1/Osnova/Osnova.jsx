@@ -4,7 +4,7 @@ import './Osnova.css'
 function Osnova(props) {
     return (
           <div>
-         {props.State.Name2}
+         {props.Name2}
         </div>
     )
 }
