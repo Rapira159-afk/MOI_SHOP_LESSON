@@ -5,8 +5,9 @@ import {Route} from 'react-router-dom';
 function Osnova(props) {
     return (
          <div>
-         <Route exact path='/1Categ' render={()=><div>rfgrfrfrfrfrf</div>}
+         <Route exact path='/1Categ' render={()=><div><Osnov1 State={props.State}/></div>}
          />
+       
          </div>
         )
 }
