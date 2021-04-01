@@ -1,5 +1,5 @@
 import React from 'react';
-import './LOGO.module.css'
+
 import LOGO from './LOGO.jpg'
 const Logotip = () => {
   return (<div className="LOGO">
