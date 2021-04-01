@@ -1,5 +1,5 @@
 import React from 'react';
-import './Contri.module.css'
+
 import {BrowserRouter, NavLink} from "react-router-dom";
 
 const Contri2 = () => {

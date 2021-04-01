@@ -1,5 +1,5 @@
 import React from 'react';
-import q from './Blok3.module.css'
+import q from './Blok3.css'
 import {Poisk} from "./Stroka_poiska/Poisk";
 
 
