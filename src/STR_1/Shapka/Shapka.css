@@ -1,7 +1,7 @@
 .Shapka {
     grid-area: a; 
     color: blue;
-    background-color: rgb(14, 230, 205);
+    background: url(Фон3.jpg) 1% 15% no-repeat ;
     text-align: center;
 
     padding-top: 0px;
