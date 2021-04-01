@@ -1,10 +1,11 @@
 import React from 'react';
+import {BrowserRouter, NavLink} from "react-router-dom";
 
 function Osnov1(props) {
     return (
         <div>
-            <div>{props.State.Category.Name1}</div>
-            <div>{props.State.Category.Name2}</div>
+            <div> <NavLink to="/1Categ/1">{props.State.Category.Name1}</NavLink></div>
+            <div><NavLink to="/1Categ/2">{props.State.Category.Name2}</NavLink></div>
             <div>{props.State.Category.Name3}</div>
             <div>{props.State.Category.Name4}</div>
             <div>{props.State.Category.Name5}</div>
